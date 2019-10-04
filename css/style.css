@@ -13,15 +13,16 @@ body {
 
 .top {
     background: url(../img/background.png);
-    height: 114vh;
+    min-height: 106vh;
     background-size: cover;
+    background-position: center;
 }
 .container {
     width: 1140px;
     margin: 0 auto;
 }
 .navsection {
-    padding: 30px;
+    padding: 50px 0;
 }
 .logo {
     width: 30%;
@@ -42,7 +43,7 @@ body {
 }
 .manu ul li a {
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 25px;
     color: #d6d6d6;
     transition: .4s;
     display: inline-block;
@@ -53,15 +54,15 @@ body {
 }
 
 .support {
-    padding: 11px 30px;
+    padding: 7px 25px;
     border: 1px solid #fff;
     border-radius: 25px;
     transition: .4s;
 }
 
 .support:hover {
-    background: #6c63ffe0;
-    color: #000;
+    background: #fff;
+    color: #000 !important;
 } 
 
 /*banner section*/
@@ -69,10 +70,9 @@ body {
 .bannersection {float: left;width: 100%;}
 .banner-content {
     float: left;
-    margin-top: 80px;
+    margin-top: 154px;
     width: 50%;
     box-sizing: border-box;
-    padding: 0px 0px 0 21px;
 }
 .banner-content h1 {
     font-size: 40px;
@@ -96,7 +96,6 @@ body {
     padding: 10px 20px;
     border: 1px solid #fff;
     border-radius: 25px;
-    font-weight: 700;
 }
 .sliderbtn .contact {
     background: #fff;
@@ -115,7 +114,7 @@ body {
     box-sizing: border-box;
     float: left;
 }
-.artwork img {width: 100%;}
+.artwork img {width: 100%;margin-top: 70px;}
 
 
 /*iconbox section*/
@@ -207,7 +206,7 @@ body {
 }
 .singleblog a {
     padding: 10px 20px;
-    background: #756aff;
+    background: linear-gradient(to right, #4f5dfd, #0cb6fb);
     text-decoration: none;
     color: #fff;
     border-radius: 25px;
@@ -299,9 +298,8 @@ body {
     margin-bottom: 70px;
 }
 .portfolio .manu ul {
-    padding: 0px 20px;
-    border: 1.5px solid #756aff;
-    border-radius: 30px;
+    border: 1px solid #756aff;
+    border-radius: 25px;
 }
 .portfolio .manu ul li {
     text-transform: uppercase;
@@ -310,8 +308,7 @@ body {
     color: #3f3f3f;
     padding: 10px 20px;
     margin: 0px;
-    border-radius: 20px;
-    font-weight: 600;
+    border-radius: 25px;
     transition: 1s;
 }
 .portfolio .manu ul li a:hover {
@@ -326,11 +323,14 @@ body {
     width: 100%;
 }
 .imgbox {
-    width: 33.33%;
-    position: relative;
+    width: 33.33%;    
     float: left;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.hover-position {
+    position: relative;
 }
 .port-img {}
 .port-img img {
@@ -350,7 +350,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
 }
 .imgbox .icons ul {
     list-style: none;
@@ -369,8 +369,8 @@ body {
 .hover h2 {
     text-transform: uppercase;
     color: #fff;
-    margin-top: 260px;
-    margin-left: 27px;
+    margin-top: 68%;
+    margin-left: 5%;
     font-weight: 300;
 }
 .porbox .hover:hover {
@@ -383,10 +383,9 @@ body {
 .newslatter {
     float: left;
     width: 100%;
-    padding: 60px 0;
+    padding: 80px 0;
     background: linear-gradient(to right, #4f5ef2d6, #0dabeede), url(../img/background2.png);
     background-size: cover;
-    height: 36vh;
     background-position: center;
     margin-top: 35px;
 }
@@ -600,7 +599,7 @@ body {
     width: 41%;
     display: inline-block;
 }
-.submitbtn2 {color: blue;}
+.submitbtn2 {color: white;background: linear-gradient(to right, #4f5dfd, #0cb6fb) !important;padding: 15px 41px !important;border-radius: 26px;}
 .art2 {
     width: 50%;
     float: left;
